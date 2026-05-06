@@ -1,0 +1,31 @@
+body {
+  margin: 0;
+  background: #ffffff;
+  color: #fff;
+  font-family: 'Segoe UI', Arial, sans-serif;
+}
+
+
+
+
+#ritual-bg-canvas {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  pointer-events: none;
+  z-index: 0;        /* behind everything else */
+
+
+}
+
+#p5-text-canvas {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  z-index: 15;        /* above Hydra, below HTML text */
+  pointer-events: none;
+}
